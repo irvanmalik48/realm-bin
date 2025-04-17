@@ -1,3 +1,5 @@
+import { EditorComponent } from "@/components/editor";
+
 export default function Home() {
-  return <div></div>;
+  return <EditorComponent />;
 }

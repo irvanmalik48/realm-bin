@@ -1,0 +1,32 @@
+import { createHighlighter } from "shiki";
+
+export const highlighter = await createHighlighter({
+  themes: ["github-dark", "github-light"],
+  langs: [
+    "bash",
+    "c",
+    "cpp",
+    "css",
+    "clojure",
+    "csharp",
+    "dockerfile",
+    "go",
+    "html",
+    "java",
+    "julia",
+    "kotlin",
+    "lua",
+    "javascript",
+    "json",
+    "markdown",
+    "php",
+    "python",
+    "pascal",
+    "plaintext",
+    "ruby",
+    "rust",
+    "sql",
+    "typescript",
+    "yaml",
+  ],
+});
