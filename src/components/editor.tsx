@@ -2,7 +2,6 @@
 
 import { useAtom } from "jotai";
 import { contentAtom } from "@/lib/atoms";
-import "@uiw/react-textarea-code-editor/dist.css";
 
 export function EditorComponent() {
   const [content, setContent] = useAtom(contentAtom);
